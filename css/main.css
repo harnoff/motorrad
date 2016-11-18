@@ -1,0 +1,140 @@
+* {
+	margin: 0px;
+	padding: 0px;	
+	/*border: .3px dashed black;*/
+}
+
+body {
+	text-align: center;
+	min-width: 1400px;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #333333;
+	display: block;
+	margin: 8px;
+		
+	/*background-color: #6D6D6D*/
+}
+
+/*----------------IMAGE & HEADER---------------------*/
+
+.bwmotorcycle {
+	display: inline-block;
+	position: relative;
+}
+
+#motorrad {
+	text-align: center;
+	position: relative;
+	font-size: 2em;
+	top: -35px;
+}
+	
+hr {
+	padding: 0;
+	width: 1100px;
+	border: none;
+	border-top: 2px solid #333333;
+	color: black;
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+/*-----------------NAVIGATION-----------------*/
+
+.navigation {
+	/*margin: 0px;
+	border: 0px;*/
+	text-align: center;
+	font-size: 2em;
+	background-color: rgba(225, 225, 225, 0.5);
+	display: inline-block;
+	width: 1100px;
+	/*background-color: yellow;
+	height: 40px*/
+
+	/* ---old selectors
+	width: 960px;
+	margin: auto;
+	*/
+}
+	
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+	/*display: table-cell;
+	width: 960px;*/
+}
+
+li {
+	float: right;
+	margin: 0px;
+	
+	/*display: table-cell;
+	width: 16.7%;*/
+}
+
+ul a {
+	display:inline-block;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: red;
+}
+
+ul li:hover, .selected {
+	
+}
+
+#typefloat {
+	float: left;
+	size: 2em;
+	display: block;
+	width: 50%;
+	vertical-align: middle;
+}
+
+#picfloat {
+	float: right;
+	display:block;
+}
+
+/*
+a div h2 {
+	float: left;
+	size: 2em;
+	display: block;
+	width: 50%;
+}
+
+a div img {
+	float: right;
+	display: block;
+}
+*/
+
+/*--------MAIN CONTENT-------------------*/
+
+.main {
+	width: 1100px;
+	text-align: left;
+	color: black;
+	font-size: 1.5em;
+	margin: auto;
+	float: none;
+	background-color: rgba(225, 225, 225, 0.5);
+    
+}
+
+#offroadlist {
+	list-style: disc;
+
+	color: black;
+	
+}

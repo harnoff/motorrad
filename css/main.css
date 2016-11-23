@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;	
+	font-family:Ubuntu, serif;
 	/*border: .3px dashed black;*/
 }
 
@@ -14,8 +15,6 @@ body {
 	color: #333333;
 	display: block;
 	margin: 8px;
-		
-	/*background-color: #6D6D6D*/
 }
 
 /*----------------IMAGE & HEADER---------------------*/
@@ -47,38 +46,23 @@ hr {
 /*-----------------NAVIGATION-----------------*/
 
 .navigation {
-	/*margin: 0px;
-	border: 0px;*/
 	text-align: center;
 	font-size: 2em;
 	background-color: rgba(225, 225, 225, 0.5);
 	display: inline-block;
 	width: 1100px;
-	/*background-color: yellow;
-	height: 40px*/
-
-	/* ---old selectors
-	width: 960px;
-	margin: auto;
-	*/
 }
-	
+
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	
-	/*display: table-cell;
-	width: 960px;*/
 }
 
 li {
 	float: right;
 	margin: 0px;
-	
-	/*display: table-cell;
-	width: 16.7%;*/
 }
 
 ul a {
@@ -89,35 +73,14 @@ ul a {
 }
 
 ul li:hover, .selected {
-	
 }
 
-#typefloat {
-	float: left;
-	size: 2em;
-	display: block;
-	width: 50%;
-	vertical-align: middle;
+.item {
+	color: red;
+	text-decoration: none;
+	hover: none;
+	display: inline-block;
 }
-
-#picfloat {
-	float: right;
-	display:block;
-}
-
-/*
-a div h2 {
-	float: left;
-	size: 2em;
-	display: block;
-	width: 50%;
-}
-
-a div img {
-	float: right;
-	display: block;
-}
-*/
 
 /*--------MAIN CONTENT-------------------*/
 
@@ -134,7 +97,6 @@ a div img {
 
 #offroadlist {
 	list-style: disc;
-
 	color: black;
-	
 }
+/*END*/
